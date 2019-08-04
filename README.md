@@ -64,7 +64,6 @@ $ npm start
 
 Local IP: 192.168.1.131
 Client Connected
-Client Connected
 Client Disconnected
 Client Connected
 Client Disconnected
