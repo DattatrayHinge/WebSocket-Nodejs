@@ -36,18 +36,20 @@ $ git clone https://github.com/DattatrayHinge/WebSocket-Nodejs
 
 `
 $ cd WebSocket-Nodejs/ws_client
+`
 
+`
 $ npm install 
-
 `
 
 * go to *ws_server* and install required npm packages from *package.json*
 
 `
 $ cd WebSocket-Nodejs/ws_server
+`
 
+`
 $ npm install
-
 `
 
 ## Run 
@@ -56,9 +58,10 @@ $ npm install
 
 `
 $ cd WebSocket-Nodejs/ws_client
+`
 
+`
 $ npm start 
-
 `
 * Output 
 
@@ -67,9 +70,10 @@ $ npm start
 
 `
 $ cd WebSocket-Nodejs/ws_client
+`
 
+`
 $ npm start 
-
 `
 * Output
 
