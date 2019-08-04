@@ -28,55 +28,82 @@ Note: *ws* does not work in browsers. For Browser client use native *websocket* 
 * Need nodejs and npm install on system 
 * Download or clone the repo 
 
-`
+```sh
 $ git clone https://github.com/DattatrayHinge/WebSocket-Nodejs
-`
+```
 
 * go to *ws_client* and install required npm packages from *package.json*
 
-`
+```sh
 $ cd WebSocket-Nodejs/ws_client
-`
-
-`
 $ npm install 
-`
+```
 
 * go to *ws_server* and install required npm packages from *package.json*
 
-`
+```sh
 $ cd WebSocket-Nodejs/ws_server
-`
-
-`
 $ npm install
-`
+```
 
 ## Run 
-### Run Client
-* go to *ws_client* and run the client code 
-
-`
-$ cd WebSocket-Nodejs/ws_client
-`
-
-`
-$ npm start 
-`
-* Output 
 
 ### Run Server 
+
 * go to *ws_server* and run the server code 
 
-`
+```sh
 $ cd WebSocket-Nodejs/ws_client
-`
-
-`
 $ npm start 
-`
-* Output
+```
 
+* Output
+```sh
+> ws_server@1.2.0 start /home/user/nodejs_examples/WebSocket-Nodejs/ws_server
+> node index.js
+
+Local IP: 192.168.1.131
+Client Connected
+Client Connected
+Client Disconnected
+Client Connected
+Client Disconnected
+^C
+```
+
+### Run Client
+
+* go to *ws_client* and run the client code 
+
+```sh
+$ cd WebSocket-Nodejs/ws_client
+$ npm start 
+```
+
+* Output 
+```sh
+> ws_client@1.2.0 start /home/user/nodejs_examples/WebSocket-Nodejs/ws_client
+> node index.js
+
+Local IP: 192.168.1.131
+Connection Opened
+Received Timestamp Update: Roundtrip Time: 3 ms
+Received Timestamp Update: Roundtrip Time: 0 ms
+Received Timestamp Update: Roundtrip Time: 0 ms
+^C
+user@XPSL401XU:~/nodejs_examples/WebSocket-Nodejs/ws_client$ npm start
+
+> ws_client@1.0.0 start /home/user/nodejs_examples/WebSocket-Nodejs/ws_client
+> node index.js
+
+Local IP: 192.168.1.131
+Connection Opened
+Received Timestamp Update: Roundtrip Time: 4 ms
+Received Timestamp Update: Roundtrip Time: 1 ms
+Received Timestamp Update: Roundtrip Time: 1 ms
+Received Timestamp Update: Roundtrip Time: 1 ms
+^C
+```
 
 ## Closing Remarks 
 Web Socket with added security layer, has huge potential and widely used in real-time web application some examples are 
