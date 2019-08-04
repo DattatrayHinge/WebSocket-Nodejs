@@ -16,7 +16,12 @@ var createWebSocketClient = function(){
             
          // Data received handler 
         ws.on('message', function incoming(data) {
-            console.log(`Message Received: ${data}`);
+            var obj = JSON.parse(data);
+            if(obj.service ==="TIME_UPDATE"){
+                console.log(`Received Timestamp Update: Roundtrip Time: ${Date.now() - obj.timestamp} ms`);
+            }else {
+                console.log(`Unknown Service: ${obj.service}`);
+            }
         });
 
         // Socket Closed handler
