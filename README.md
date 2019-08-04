@@ -27,15 +27,20 @@ Note: *ws* does not work in browsers. For Browser client use native *websocket* 
 ## Install
 * Need nodejs and npm install on system 
 * Download or clone the repo 
+
 `
 $ git clone https://github.com/DattatrayHinge/WebSocket-Nodejs
 `
+
 * go to *ws_client* and install required npm packages from *package.json*
+
 `
 $ cd WebSocket-Nodejs/ws_client
 $ npm install 
 `
+
 * go to *ws_server* and install required npm packages from *package.json*
+
 `
 $ cd WebSocket-Nodejs/ws_server
 $ npm install 
@@ -44,6 +49,7 @@ $ npm install
 ## Run 
 ### Run Client
 * go to *ws_client* and run the client code 
+
 `
 $ cd WebSocket-Nodejs/ws_client
 $ npm install 
@@ -51,6 +57,7 @@ $ npm install
 
 ### Run Server 
 * go to *ws_server* and run the server code 
+
 `
 $ cd WebSocket-Nodejs/ws_client
 $ npm install 
