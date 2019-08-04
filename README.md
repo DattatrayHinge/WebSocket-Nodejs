@@ -52,7 +52,7 @@ $ npm install
 * Go to *ws_server* and run the server code 
 
 ```sh
-$ cd WebSocket-Nodejs/ws_client
+$ cd WebSocket-Nodejs/ws_server
 $ npm start 
 ```
 
