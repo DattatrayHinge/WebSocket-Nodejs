@@ -85,9 +85,9 @@ $ npm start
 
 Local IP: 192.168.1.131
 Connection Opened
-Received Timestamp Update: Roundtrip Time: 3 ms
-Received Timestamp Update: Roundtrip Time: 0 ms
-Received Timestamp Update: Roundtrip Time: 0 ms
+Received Timestamp Update: latency is 3 ms
+Received Timestamp Update: latency is 0 ms
+Received Timestamp Update: latency is 0 ms
 ^C
 user@hostname:~/nodejs_examples/WebSocket-Nodejs/ws_client$ npm start
 
@@ -96,10 +96,10 @@ user@hostname:~/nodejs_examples/WebSocket-Nodejs/ws_client$ npm start
 
 Local IP: 192.168.1.131
 Connection Opened
-Received Timestamp Update: Roundtrip Time: 4 ms
-Received Timestamp Update: Roundtrip Time: 1 ms
-Received Timestamp Update: Roundtrip Time: 1 ms
-Received Timestamp Update: Roundtrip Time: 1 ms
+Received Timestamp Update: latency is 4 ms
+Received Timestamp Update: latency is 1 ms
+Received Timestamp Update: latency is 1 ms
+Received Timestamp Update: latency is 1 ms
 ^C
 ```
 

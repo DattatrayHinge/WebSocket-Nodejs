@@ -10,7 +10,7 @@ ws.on("connection", function (ws) {
 
     console.log("Client Connected");
     
-    // Client is connected now set clyclic trigger to send time update 
+    // Client is connected now set cyclic trigger to send time update 
     // service on every 1 sec. 
     setInterval(function timeout() {
         // Check client is alive or not 
@@ -26,7 +26,7 @@ ws.on("connection", function (ws) {
         console.log('Client Disconnected');
     });
     
-    // Data Received hnadler
+    // Data Received handler
     ws.on('message', function incoming(data) {
         console.log(`Message Received: ${data}`);
     });

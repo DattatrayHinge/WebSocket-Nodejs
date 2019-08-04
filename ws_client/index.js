@@ -9,7 +9,7 @@ var createWebSocketClient = function(){
         // Connect to localhost 
         ws = new WebSocket('ws://'+ip+':3080');
 
-        // Socket Connect hanlder 
+        // Socket Connect handler 
         ws.on('open', function open() {
             console.log('Connection Opened');
         });
@@ -18,7 +18,7 @@ var createWebSocketClient = function(){
         ws.on('message', function incoming(data) {
             var obj = JSON.parse(data);
             if(obj.service ==="TIME_UPDATE"){
-                console.log(`Received Timestamp Update: Roundtrip Time: ${Date.now() - obj.timestamp} ms`);
+                console.log(`Received Timestamp Update: latency is ${Date.now() - obj.timestamp} ms`);
             }else {
                 console.log(`Unknown Service: ${obj.service}`);
             }
@@ -35,7 +35,7 @@ var createWebSocketClient = function(){
             }, 2000);
         }), 
 
-        // Socket Error Handler
+        // Socket Error handler
         ws.on('error', function close() {
             console.log('Socket Error!!');
 
