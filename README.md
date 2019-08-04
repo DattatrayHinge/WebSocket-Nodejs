@@ -21,9 +21,8 @@ This nodejs example application will demonstrate
 * Server messaging - In this example server sends local time stamp to client at every 1 second interval and client will display timestamp difference between server and client displaying data latency between server and client 
 * Error recovery of client socket – In this example client socket will recovered through socket error and reestablish new client instance ready to connect to server socket
 
-`
-Note: *ws* does not work in browsers. For Browser client use native *websocket* library
-`
+*Note: **ws** does not work in browsers. For Browser client use native **websocket** library*
+
 ## Install
 * Need nodejs and npm install on system 
 * Download or clone the repo 
@@ -32,14 +31,14 @@ Note: *ws* does not work in browsers. For Browser client use native *websocket* 
 $ git clone https://github.com/DattatrayHinge/WebSocket-Nodejs
 ```
 
-* go to *ws_client* and install required npm packages from *package.json*
+* Change directory to *ws_client* and install required npm packages from *package.json*
 
 ```sh
 $ cd WebSocket-Nodejs/ws_client
 $ npm install 
 ```
 
-* go to *ws_server* and install required npm packages from *package.json*
+* Change directory to *ws_server* and install required npm packages from *package.json*
 
 ```sh
 $ cd WebSocket-Nodejs/ws_server
@@ -50,7 +49,7 @@ $ npm install
 
 ### Run Server 
 
-* go to *ws_server* and run the server code 
+* Go to *ws_server* and run the server code 
 
 ```sh
 $ cd WebSocket-Nodejs/ws_client
@@ -90,7 +89,7 @@ Received Timestamp Update: Roundtrip Time: 3 ms
 Received Timestamp Update: Roundtrip Time: 0 ms
 Received Timestamp Update: Roundtrip Time: 0 ms
 ^C
-user@XPSL401XU:~/nodejs_examples/WebSocket-Nodejs/ws_client$ npm start
+user@hostname:~/nodejs_examples/WebSocket-Nodejs/ws_client$ npm start
 
 > ws_client@1.0.0 start /home/user/nodejs_examples/WebSocket-Nodejs/ws_client
 > node index.js
