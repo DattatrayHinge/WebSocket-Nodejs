@@ -60,6 +60,7 @@ $ cd WebSocket-Nodejs/ws_client
 $ npm start 
 
 `
+* Output 
 
 ### Run Server 
 * go to *ws_server* and run the server code 
@@ -70,6 +71,8 @@ $ cd WebSocket-Nodejs/ws_client
 $ npm start 
 
 `
+* Output
+
 
 ## Closing Remarks 
 Web Socket with added security layer, has huge potential and widely used in real-time web application some examples are 
